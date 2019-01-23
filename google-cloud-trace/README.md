@@ -110,9 +110,9 @@ On Google App Engine, the Stackdriver Trace API access scope is enabled by
 default, and the Stackdriver Trace library for Ruby can be used without
 providing credentials or a project ID
 
-### Container Engine
+### Kubernetes Engine
 
-On Google Container Engine, you must explicitly add the `trace.append` OAuth
+On Google Kubernetes Engine, you must explicitly add the `trace.append` OAuth
 scope when creating the cluster:
 
 ```sh
